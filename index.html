@@ -30,10 +30,13 @@
                 <a href="#3">Lista de tecnologías por nombre: desde el controlador</a>
             </li>
             <li class="list-group-item">
-                <a href="#4">Lista ordenada de tecnologías por nombre</a>
+                <a href="#4">Lista filtrada usando dos parámetros</a>
             </li>
             <li class="list-group-item">
-                <a href="#5">Lista ordenada de tecnologías por nombre escritas como una oración</a>
+                <a href="#5">Lista ordenada de tecnologías por nombre</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#6">Lista ordenada de tecnologías por nombre escritas como una oración</a>
             </li>
         </ul>
 
@@ -66,6 +69,15 @@
 
         <div class="panel panel-default" id="4">
             <div class="panel-heading">
+                <h3>Lista filtrada usando dos parámetros<a href="#top">^</a></h3>
+            </div>
+            <div class="panel-body">
+                <pre>{{tecnologias | filtrador:'frontEnd':false}}</pre>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="5">
+            <div class="panel-heading">
                 <h3>Lista ordenada de tecnologías por nombre <a href="#top">^</a></h3>
             </div>
             <div class="panel-body">
@@ -73,7 +85,7 @@
             </div>
         </div>
 
-        <div class="panel panel-default" id="5">
+        <div class="panel panel-default" id="6">
             <div class="panel-heading">
                 <h3>Lista ordenada de tecnologías por nombre escritas como una oración <a href="#top">^</a></h3>
             </div>
